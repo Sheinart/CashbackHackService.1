@@ -18,3 +18,8 @@ jobs:
         run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew test
+        
+        > task :test FAILED
+        
+        ru.netology.serevice.CashbackHackServiceTest > testThereIsEnougMoney FAILED
+        java.lang.AssertionError at CashbackHackServiceTest.java:17
